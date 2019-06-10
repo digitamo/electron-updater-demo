@@ -1,5 +1,11 @@
+## <small>6.0.22 (2019-06-10)</small>
+
+
+
+
 ## <small>6.0.21 (2019-06-10)</small>
 
+* 6.0.21 ([fa2782f](https://github.com/digitamo/electron-updater-demo/commit/fa2782f))
 
 
 
