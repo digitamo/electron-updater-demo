@@ -1,19 +1,12 @@
 {
   "name": "angular-electron",
-  "version": "6.0.2",
+  "version": "6.0.1",
   "description": "Angular 8 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "homepage": "https://github.com/digitamo/electron-updater-demo",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Osama",
+    "email": "osama@intouch.com"
   },
-  "keywords": [
-    "angular",
-    "angular 8",
-    "electron",
-    "typescript",
-    "sass"
-  ],
   "main": "main.js",
   "private": true,
   "scripts": {
@@ -85,6 +78,7 @@
     "node": ">=10.9.0"
   },
   "dependencies": {
+    "electron-log": "^3.0.6",
     "electron-updater": "^4.0.6"
   }
 }
