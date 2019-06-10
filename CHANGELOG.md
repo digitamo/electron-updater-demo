@@ -1,5 +1,11 @@
+## <small>6.0.32 (2019-06-10)</small>
+
+
+
+
 ## <small>6.0.31 (2019-06-10)</small>
 
+* 6.0.31 ([fddd434](https://github.com/digitamo/electron-updater-demo/commit/fddd434))
 
 
 
