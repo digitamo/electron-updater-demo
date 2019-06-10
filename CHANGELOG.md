@@ -1,3 +1,15 @@
+## <small>6.0.3 (2019-06-10)</small>
+
+
+
+
+## <small>6.0.2 (2019-06-10)</small>
+
+* 6.0.2 ([fa6e0ab](https://github.com/digitamo/electron-updater-demo/commit/fa6e0ab))
+* deploy: add autoupdate configurations ([6b88790](https://github.com/digitamo/electron-updater-demo/commit/6b88790))
+
+
+
 ## <small>6.0.2 (2019-06-09)</small>
 
 * [Bumped Version] 6.0.2 ([a545914](https://github.com/digitamo/electron-updater-demo/commit/a545914))
