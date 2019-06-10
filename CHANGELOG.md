@@ -1,8 +1,9 @@
 ## <small>6.0.2 (2019-06-09)</small>
 
+* [Bumped Version] 6.0.2 ([a545914](https://github.com/digitamo/electron-updater-demo/commit/a545914))
+* fix/ Version Electron in README ([acf0d4f](https://github.com/digitamo/electron-updater-demo/commit/acf0d4f))
 * chore: update .gitignore ([7848b8a](https://github.com/digitamo/electron-updater-demo/commit/7848b8a))
 * deploy: add release configurations ([32be335](https://github.com/digitamo/electron-updater-demo/commit/32be335))
-* fix/ Version Electron in README ([acf0d4f](https://github.com/digitamo/electron-updater-demo/commit/acf0d4f))
 
 
 
