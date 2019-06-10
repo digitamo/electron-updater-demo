@@ -27,7 +27,8 @@
   },
   "publish": {
     "provider": "github",
-    "private": false
+    "private": false,
+    "releaseType": "release"
   },
   "mac": {
     "icon": "dist",

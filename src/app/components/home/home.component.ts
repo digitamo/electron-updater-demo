@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {ElectronService} from '../../providers/electron.service';
 
 @Component({
   selector: 'app-home',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  version: string;
 
-  constructor() { }
+  constructor(private electron: ElectronService) {
+    this.version = electron.remote.app.getVersion();
+  }
 
   ngOnInit() {
   }
