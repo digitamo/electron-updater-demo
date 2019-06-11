@@ -1,5 +1,11 @@
+## <small>6.0.78 (2019-06-11)</small>
+
+
+
+
 ## <small>6.0.77 (2019-06-11)</small>
 
+* 6.0.77 ([e8555c0](https://github.com/digitamo/electron-updater-demo/commit/e8555c0))
 
 
 
