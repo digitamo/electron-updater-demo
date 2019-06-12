@@ -1,5 +1,11 @@
+## <small>6.0.113 (2019-06-12)</small>
+
+
+
+
 ## <small>6.0.112 (2019-06-12)</small>
 
+* 6.0.112 ([f50f23c](https://github.com/digitamo/electron-updater-demo/commit/f50f23c))
 
 
 
