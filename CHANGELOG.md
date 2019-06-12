@@ -1,5 +1,11 @@
+## <small>6.0.101 (2019-06-12)</small>
+
+
+
+
 ## <small>6.0.100 (2019-06-12)</small>
 
+* 6.0.100 ([c33cfa3](https://github.com/digitamo/electron-updater-demo/commit/c33cfa3))
 
 
 
