@@ -1,5 +1,11 @@
+## <small>6.0.103 (2019-06-12)</small>
+
+
+
+
 ## <small>6.0.102 (2019-06-12)</small>
 
+* 6.0.102 ([80dd86e](https://github.com/digitamo/electron-updater-demo/commit/80dd86e))
 
 
 
