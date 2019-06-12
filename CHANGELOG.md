@@ -1,5 +1,11 @@
+## <small>6.0.102 (2019-06-12)</small>
+
+
+
+
 ## <small>6.0.101 (2019-06-12)</small>
 
+* 6.0.101 ([cbdb31b](https://github.com/digitamo/electron-updater-demo/commit/cbdb31b))
 
 
 
