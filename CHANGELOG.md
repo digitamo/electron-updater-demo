@@ -1,5 +1,11 @@
+## <small>6.0.100 (2019-06-12)</small>
+
+
+
+
 ## <small>6.0.99 (2019-06-12)</small>
 
+* 6.0.99 ([ef32c61](https://github.com/digitamo/electron-updater-demo/commit/ef32c61))
 
 
 
