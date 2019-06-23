@@ -1,5 +1,6 @@
 {
   "productName": "angular-electron",
+  "artifactName": "${productName}.${ext}",
   "directories": {
     "output": "release/"
   },
@@ -39,7 +40,7 @@
   "linux": {
     "icon": "dist",
     "target": [
-      "AppImage"
+      "deb"
     ]
   }
 }
