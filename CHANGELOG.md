@@ -1,5 +1,12 @@
+## <small>6.0.116 (2019-06-23)</small>
+
+* deploy: change linux executable to deb ([4896140](https://github.com/digitamo/electron-updater-demo/commit/4896140))
+
+
+
 ## <small>6.0.115 (2019-06-12)</small>
 
+* 6.0.115 ([28b0cfb](https://github.com/digitamo/electron-updater-demo/commit/28b0cfb))
 
 
 
