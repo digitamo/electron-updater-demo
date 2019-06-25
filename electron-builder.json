@@ -1,6 +1,5 @@
 {
   "productName": "angular-electron",
-  "artifactName": "${productName}.${ext}",
   "directories": {
     "output": "release/"
   },
@@ -24,7 +23,8 @@
     "icon": "dist",
     "target": [
       "portable"
-    ]
+    ],
+    "publish": ["github"]
   },
   "publish": {
     "provider": "github",
@@ -35,12 +35,14 @@
     "icon": "dist",
     "target": [
       "dmg"
-    ]
+    ],
+    "publish": ["github"]
   },
   "linux": {
     "icon": "dist",
     "target": [
       "deb"
-    ]
+    ],
+    "publish": ["github"]
   }
 }
