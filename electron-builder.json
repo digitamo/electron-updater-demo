@@ -1,5 +1,6 @@
 {
   "productName": "angular-electron",
+  "artifactName": "${productName}.${ext}",
   "directories": {
     "output": "release/"
   },
