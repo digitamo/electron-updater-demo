@@ -1,15 +1,10 @@
+## <small>6.0.119 (2019-06-27)</small>
+
+
+
+
 ## <small>6.0.118 (2019-06-27)</small>
 
-* deploy: add autoupdate configurations ([efbc4b1](https://github.com/digitamo/electron-updater-demo/commit/efbc4b1))
-* deploy: Add build script ([e08d60e](https://github.com/digitamo/electron-updater-demo/commit/e08d60e))
-* deploy: Add build script ([6d898f6](https://github.com/digitamo/electron-updater-demo/commit/6d898f6))
-* deploy: Add systemd service ([2ce027b](https://github.com/digitamo/electron-updater-demo/commit/2ce027b))
-* deploy: Change artifact name ([3ab7819](https://github.com/digitamo/electron-updater-demo/commit/3ab7819))
-* deploy: change linux executable to deb ([5034a21](https://github.com/digitamo/electron-updater-demo/commit/5034a21))
-* deploy: change linux executable to deb ([bd11505](https://github.com/digitamo/electron-updater-demo/commit/bd11505))
-* deploy: Disable publish option when building ([6b560f6](https://github.com/digitamo/electron-updater-demo/commit/6b560f6))
-* deploy: Update build script ([561ec2d](https://github.com/digitamo/electron-updater-demo/commit/561ec2d))
-* deploy: Update gitignore ([1f37ae6](https://github.com/digitamo/electron-updater-demo/commit/1f37ae6))
 * 6.0.10 ([43f4bbb](https://github.com/digitamo/electron-updater-demo/commit/43f4bbb))
 * 6.0.100 ([1034eef](https://github.com/digitamo/electron-updater-demo/commit/1034eef))
 * 6.0.101 ([3468507](https://github.com/digitamo/electron-updater-demo/commit/3468507))
@@ -29,6 +24,7 @@
 * 6.0.114 ([10c5b32](https://github.com/digitamo/electron-updater-demo/commit/10c5b32))
 * 6.0.115 ([960e003](https://github.com/digitamo/electron-updater-demo/commit/960e003))
 * 6.0.116 ([f99d3ad](https://github.com/digitamo/electron-updater-demo/commit/f99d3ad))
+* 6.0.118 ([f884fa2](https://github.com/digitamo/electron-updater-demo/commit/f884fa2))
 * 6.0.12 ([bd49075](https://github.com/digitamo/electron-updater-demo/commit/bd49075))
 * 6.0.13 ([7a9b393](https://github.com/digitamo/electron-updater-demo/commit/7a9b393))
 * 6.0.14 ([524a66f](https://github.com/digitamo/electron-updater-demo/commit/524a66f))
@@ -125,6 +121,16 @@
 * 6.0.97 ([5324095](https://github.com/digitamo/electron-updater-demo/commit/5324095))
 * 6.0.98 ([9115477](https://github.com/digitamo/electron-updater-demo/commit/9115477))
 * 6.0.99 ([2b69da1](https://github.com/digitamo/electron-updater-demo/commit/2b69da1))
+* deploy: add autoupdate configurations ([efbc4b1](https://github.com/digitamo/electron-updater-demo/commit/efbc4b1))
+* deploy: Add build script ([e08d60e](https://github.com/digitamo/electron-updater-demo/commit/e08d60e))
+* deploy: Add build script ([6d898f6](https://github.com/digitamo/electron-updater-demo/commit/6d898f6))
+* deploy: Add systemd service ([2ce027b](https://github.com/digitamo/electron-updater-demo/commit/2ce027b))
+* deploy: Change artifact name ([3ab7819](https://github.com/digitamo/electron-updater-demo/commit/3ab7819))
+* deploy: change linux executable to deb ([5034a21](https://github.com/digitamo/electron-updater-demo/commit/5034a21))
+* deploy: change linux executable to deb ([bd11505](https://github.com/digitamo/electron-updater-demo/commit/bd11505))
+* deploy: Disable publish option when building ([6b560f6](https://github.com/digitamo/electron-updater-demo/commit/6b560f6))
+* deploy: Update build script ([561ec2d](https://github.com/digitamo/electron-updater-demo/commit/561ec2d))
+* deploy: Update gitignore ([1f37ae6](https://github.com/digitamo/electron-updater-demo/commit/1f37ae6))
 
 
 
