@@ -15,7 +15,7 @@ startLimitIntervalSec=60
 Environment=DISPLAY=:1
 
 WorkingDirectory=/home/digitamo
-ExecStart=/usr/local/bin/angular-electron
+ExecStart=/opt/intouch/angular-electron.Appimage
 
 # make sure log directory exists and owned by syslog
 PermissionsStartOnly=true

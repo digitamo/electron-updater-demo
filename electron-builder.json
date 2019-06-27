@@ -42,7 +42,7 @@
   "linux": {
     "icon": "dist",
     "target": [
-      "deb"
+      "Appimage"
     ],
     "publish": ["github"]
   }
