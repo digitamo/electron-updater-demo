@@ -1,5 +1,6 @@
 #!/bin/bash
-source ~/.bashrc 
+
+source ~/.zshrc 
 
 npm install 
 npm run electron:linux
