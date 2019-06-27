@@ -1,0 +1,30 @@
+[Unit]
+Description=Kiosk UI
+ConditionPathExists=/home/digitamo
+After=network.target
+
+[Service]
+Type=simple
+User=digitamo
+Group=digitamo
+LimitNOFILE=1024
+
+Restart=on-failure
+RestartSec=10
+startLimitIntervalSec=60
+Environment=DISPLAY=:1
+
+WorkingDirectory=/home/digitamo
+ExecStart=/usr/local/bin/angular-electron
+
+# make sure log directory exists and owned by syslog
+PermissionsStartOnly=true
+ExecStartPre=/bin/mkdir -p /var/log/kiosk_ui
+ExecStartPre=/bin/chown syslog:adm /var/log/kiosk_ui
+ExecStartPre=/bin/chmod 755 /var/log/kiosk_ui
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=kiosk_ui
+
+[Install]
+WantedBy=multi-user.target
