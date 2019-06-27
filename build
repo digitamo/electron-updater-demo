@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/.zshrc 
+source ~/.bashrc
 
-npm install 
-npm run electron:linux
+/usr/local/bin/npm install 
+/usr/local/bin/npm run electron:linux
