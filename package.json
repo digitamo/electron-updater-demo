@@ -78,7 +78,6 @@
     "node": ">=10.9.0"
   },
   "dependencies": {
-    "electron-log": "^3.0.6",
-    "electron-updater": "^4.0.12"
+    "electron-log": "^3.0.6"
   }
 }

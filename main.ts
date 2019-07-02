@@ -1,11 +1,8 @@
 import {app, BrowserWindow, screen} from 'electron';
 import * as path from 'path';
 import * as url from 'url';
-import {autoUpdater} from 'electron-updater';
 import * as log from 'electron-log';
 
-
-autoUpdater.logger = log;
 
 let win, serve;
 const args = process.argv.slice(1);
@@ -83,45 +80,3 @@ try {
   // Catch Error
   // throw e;
 }
-
-app.on('ready', () => {
-  setInterval(() => {
-    if (!downloading) {
-      checkForUpdates();
-    }
-  }, 10000);
-});
-
-autoUpdater.on('update-available', () => {
-  downloading = true;
-});
-
-autoUpdater.on('update-downloaded', () => {
-  downloading = false;
-  autoUpdater.quitAndInstall();
-});
-
-const checkForUpdates = () => {
-  log.info('checking for update....');
-  log.info('Running in development');
-  log.info('Running in production');
-  autoUpdater.checkForUpdates().catch((error) => {
-    if (isNetworkError(error)) {
-      log.info('Network Error');
-    } else {
-      log.info('Unknown Error');
-      log.info(error == null ? 'unknown' : (error.stack || error).toString());
-    }
-  });
-};
-
-
-function isNetworkError(errorObject) {
-  return errorObject.message === 'net::ERR_INTERNET_DISCONNECTED' ||
-    errorObject.message === 'net::ERR_PROXY_CONNECTION_FAILED' ||
-    errorObject.message === 'net::ERR_CONNECTION_RESET' ||
-    errorObject.message === 'net::ERR_CONNECTION_CLOSE' ||
-    errorObject.message === 'net::ERR_NAME_NOT_RESOLVED' ||
-    errorObject.message === 'net::ERR_CONNECTION_TIMED_OUT';
-}
-
