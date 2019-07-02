@@ -1,5 +1,11 @@
+## <small>6.0.122 (2019-07-02)</small>
+
+
+
+
 ## <small>6.0.121 (2019-07-02)</small>
 
+* 6.0.121 ([d199dec](https://github.com/digitamo/electron-updater-demo/commit/d199dec))
 * deploy: Update systemd service template ([ab79e8d](https://github.com/digitamo/electron-updater-demo/commit/ab79e8d))
 
 
