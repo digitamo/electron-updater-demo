@@ -1,5 +1,12 @@
+## <small>6.0.130 (2019-07-02)</small>
+
+* fix: remove electron auto update ([4f95286](https://github.com/digitamo/electron-updater-demo/commit/4f95286))
+
+
+
 ## <small>6.0.129 (2019-07-02)</small>
 
+* 6.0.129 ([22b2937](https://github.com/digitamo/electron-updater-demo/commit/22b2937))
 
 
 
