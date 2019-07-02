@@ -1,5 +1,17 @@
+## <small>6.0.120 (2019-07-02)</small>
+
+* deploy: Add source ~/.bashrc back to build ([4ba77d0](https://github.com/digitamo/electron-updater-demo/commit/4ba77d0))
+* deploy: Add source ~/.bashrc back to build ([0419698](https://github.com/digitamo/electron-updater-demo/commit/0419698))
+* deploy: Change ~/.bashrc to nvm loading scripts ([2426b31](https://github.com/digitamo/electron-updater-demo/commit/2426b31))
+* deploy: remove source ~/.zshrc form build ([12461b8](https://github.com/digitamo/electron-updater-demo/commit/12461b8))
+* deploy: Update build file ([072ae7b](https://github.com/digitamo/electron-updater-demo/commit/072ae7b))
+* deploy: Update build file ([ca0f1a2](https://github.com/digitamo/electron-updater-demo/commit/ca0f1a2))
+
+
+
 ## <small>6.0.119 (2019-06-27)</small>
 
+* 6.0.119 ([ea973fa](https://github.com/digitamo/electron-updater-demo/commit/ea973fa))
 
 
 
