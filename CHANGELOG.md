@@ -1,5 +1,11 @@
+## <small>6.0.138 (2019-07-03)</small>
+
+
+
+
 ## <small>6.0.137 (2019-07-03)</small>
 
+* 6.0.137 ([fcf1674](https://github.com/digitamo/electron-updater-demo/commit/fcf1674))
 
 
 
