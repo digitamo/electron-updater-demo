@@ -1,5 +1,11 @@
+## <small>6.0.133 (2019-07-03)</small>
+
+
+
+
 ## <small>6.0.132 (2019-07-02)</small>
 
+* 6.0.132 ([ac2b810](https://github.com/digitamo/electron-updater-demo/commit/ac2b810))
 
 
 
